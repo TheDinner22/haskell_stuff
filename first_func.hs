@@ -17,4 +17,4 @@ removeNonJoeChar st = [c | c <- st, c `elem` ['j', 'o', 'e']]
 
 removeEven xxs = [ [ x | x <- xs, even x ] | xs <- xxs]
 
--- you are at the "Success! Note that weeding out lists by predicates is also called filtering" on the http://learnyouahaskell.com/starting-out
+-- you are at Tuples on the http://learnyouahaskell.com/starting-out
